@@ -1,0 +1,24 @@
+{
+  "name": "pink",
+  "version": "1.0.0",
+  "description": "my ferst gulp projeckt",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kovarnyirus/pink.git"
+  },
+  "author": "kova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kovarnyirus/pink/issues"
+  },
+  "homepage": "https://github.com/kovarnyirus/pink#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.2",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.0"
+  }
+}
