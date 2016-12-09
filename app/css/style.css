@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
   background-color: #fff;
   padding-left: 600px;
 }
@@ -6,4 +7,10 @@ body {
   display: -ms-flexbox;
   display: flex;
   padding-left: 6px;
+=======
+  background-color: green;
+}
+body {
+  font-size: 10px;
+>>>>>>> origin/master
 }
