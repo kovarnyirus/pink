@@ -5,7 +5,6 @@ var cssnano = require('gulp-cssnano');
 var rename = require('gulp-rename');
 var plumber = require('gulp-plumber');
 var autoprefixer = require('gulp-autoprefixer');
-var concat = require('gulp-concat');
 
 
 gulp.task('style', function() {

@@ -5,9 +5,9 @@ var cssnano = require('gulp-cssnano');
 var rename = require('gulp-rename');
 var plumber = require('gulp-plumber');
 var autoprefixer = require('gulp-autoprefixer');
-var concat = require('gulp-concat');
 
-gulp.task('less', function() {
+
+gulp.task('style', function() {
   return gulp.src('app/less/**/**.less')
     .pipe(plumber())
     .pipe(less())
@@ -36,7 +36,7 @@ gulp.task('browser-sync', function(){
 });
 
 gulp.task('watch', ['browser-sync', 'css-libs'], function(){
-  gulp.watch('app/less/**/*.less', ['less']);
+  gulp.watch('app/less/**/*.less', [style]);
   gulp.watch('app/css/*.css', browserSync.reload);
   gulp.watch('app/*.html', browserSync.reload);
   gulp.watch('app/js/*.js', browserSync.reload);
