@@ -1,0 +1,9 @@
+body {
+  background-color: #fff;
+  padding-left: 600px;
+}
+body {
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 6px;
+}
